@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/colorPrimary" />
+    </item>
+    <item
+        android:width="150dp"
+        android:height="189dp"
+        android:gravity="center_horizontal"
+        android:top="150dp">
+        <bitmap
+            android:antialias="true"
+            android:dither="true"
+            android:filter="true"
+            android:src="@drawable/ug" />
+    </item>
+</layer-list>
