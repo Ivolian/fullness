@@ -14,10 +14,11 @@ public class SplashActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         final long delay = 2;
-        Observable.timer(delay, TimeUnit.SECONDS).subscribe(onNextAction);
+        Observable.timer(delay, TimeUnit.SECONDS).subscribe(onNext);
     }
 
-    Action1<Object> onNextAction = new Action1<Object>() {
+    // 也可以用 handler 的方式，但既然用了 rxJava ...
+    Action1<Object> onNext = new Action1<Object>() {
         @Override
         public void call(Object s) {
             startActivity(AdActivity.class);
