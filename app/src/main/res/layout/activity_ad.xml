@@ -3,10 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:contentDescription="@null"
-    android:src="@drawable/mh"
     android:scaleType="centerCrop"
-
-    />
-    <!--android:src="@drawable/mh"-->
-    <!--android:scaleType="centerCrop"-->
+    android:src="@drawable/ad_bg" />
 

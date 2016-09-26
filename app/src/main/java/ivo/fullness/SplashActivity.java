@@ -18,12 +18,12 @@ public class SplashActivity extends BaseActivity {
     }
 
     private void delayToAd() {
-        final long delay = 2;
+        final long delay = 1;
         // 也可以用 handler 的方式，但既然用了 rxJava ...
         Observable.timer(delay, TimeUnit.SECONDS).subscribe(new Action1<Object>() {
             @Override
             public void call(Object s) {
-                startActivity(AdActivity.class);
+                startActivityAndFinish(AdActivity.class);
             }
         });
     }
