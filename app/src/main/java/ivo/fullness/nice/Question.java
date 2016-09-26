@@ -1,10 +1,10 @@
-package ivo.fullness;
+package ivo.fullness.nice;
 
 /**
  * Created by ivolianer on 2016/9/25.
  * 这个类放一路完成这个 DEMO 上遇到的问题和探索
  */
-public class Question {
+class Question {
 
     // 1. 如何不显示白屏。
     // http://www.jianshu.com/p/cd6ef8d3d74d
@@ -47,6 +47,6 @@ public class Question {
         估计 scaleType 也会对内存大小占用造成影响，这个暂时不研究咯。
      */
 
-
+    // 4.
 
 }
